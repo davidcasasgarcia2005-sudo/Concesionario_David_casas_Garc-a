@@ -1,0 +1,80 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: url('/img/fotofondoespectacular.png') no-repeat center/cover;
+}
+
+header {
+  text-align: center;
+  background: black;
+  color: white;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 2.5em;
+}
+
+nav {
+  background: #333;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 15px;
+}
+
+nav li {
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+nav li:hover {
+  color: #ccc;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.card {
+  background: #e5e5e5;
+  padding: 15px;
+  border-radius: 15px;
+  width: 220px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card p {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
